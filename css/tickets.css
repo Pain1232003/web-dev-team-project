@@ -1,0 +1,147 @@
+/* header - logo and book now button */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000000;
+  color: #fff;
+  font-family: "VT323", monospace;
+}
+
+.logo {
+  font-size: 35px;
+  font-weight: bold;
+  animation: neon-glow 1s ease-in-out infinite alternate;
+  text-shadow: 0 0 5px #ff4da6, 0 0 10px #ff4da6, 0 0 15px #ff4da6,
+    0 0 20px #ff3333, 0 0 30px #ff3333, 0 0 40px #ff3333;
+}
+
+.book-now {
+  position: relative;
+  display: inline-block;
+}
+
+.book-now .book-nowbtn {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: inherit;
+  padding: 10px 20px;
+  background-color: maroon;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.book-now .book-nowbtn:hover {
+  animation: neon-glow 1s ease-in-out infinite alternate;
+  color: white;
+  text-shadow: 0 0 5px #ff4da6, 0 0 10px #ff4da6, 0 0 15px #ff4da6,
+    0 0 20px #ff3333, 0 0 30px #ff3333, 0 0 40px #ff3333;
+}
+
+@keyframes neon-glow {
+  from {
+    text-shadow: 0 0 5px #ff4da6, 0 0 10px #ff4da6, 0 0 15px #ff4da6,
+      0 0 20px #ff3333, 0 0 30px #ff3333, 0 0 40px #ff3333;
+  }
+
+  to {
+    text-shadow: 0 0 10px #ff3333, 0 0 20px #ff1a8c, 0 0 30px #ff0066,
+      0 0 40px #ff004d, 0 0 55px #ff0000, 0 0 75px #ff0000;
+  }
+}
+
+/* header - the 4 dropdown Menus */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown .dropbtn:after {
+  content: "";
+  position: absolute;
+}
+
+.dropdown .dropbtn:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #800080;
+  color: white;
+  animation: neon-glow 1s ease-in-out infinite alternate;
+  text-shadow: 0 0 5px #ff4da6, 0 0 10px #ff4da6, 0 0 15px #ff4da6,
+    0 0 20px #ff3333, 0 0 30px #ff3333, 0 0 40px #ff3333;
+}
+
+@keyframes neon-glow {
+  from {
+    text-shadow: 0 0 5px #ff4da6, 0 0 10px #ff4da6, 0 0 15px #ff4da6,
+      0 0 20px #ff3333, 0 0 30px #ff3333, 0 0 40px #ff3333;
+  }
+
+  to {
+    text-shadow: 0 0 10px #ff3333, 0 0 20px #ff1a8c, 0 0 30px #ff0066,
+      0 0 40px #ff004d, 0 0 55px #ff0000, 0 0 75px #ff0000;
+  }
+}
+
+/* footer code */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #000000;
+  color: #fff;
+  font-family: "VT323", monospace;
+}
+
+footer p {
+  font-size: 15px;
+  font-weight: bold;
+  animation: neon-glow 1s ease-in-out infinite alternate;
+  text-shadow: 0 0 5px #ff4da6, 0 0 10px #ff4da6, 0 0 15px #ff4da6,
+    0 0 20px #ff3333, 0 0 30px #ff3333, 0 0 40px #ff3333;
+}
+
+
