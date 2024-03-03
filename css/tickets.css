@@ -18,6 +18,34 @@ header {
     0 0 20px #ff3333, 0 0 30px #ff3333, 0 0 40px #ff3333;
 }
 
+.standard-tickets {
+    height: 200px;
+    position: center;
+}
+
+.standard-tickets .standard-ticketsbtn {
+    margin: 0 auto;
+    text-align: center;
+    height: 200px;
+    border: 5px solid green;
+    
+    font-size: 100px;
+    font-weight: bold;
+    font-family: inherit;
+    padding: 10px 20px;
+    background-color: maroon;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.standard-tickets .standard-ticketsbtn:hover {
+    animation: neon-glow 1s ease-in-out infinite alternate;
+    color: white;
+    text-shadow: 0 0 5px #ff4da6, 0 0 10px #ff4da6, 0 0 15px #ff4da6,
+    0 0 20px #ff3333, 0 0 30px #ff3333, 0 0 40px #ff3333;
+}
+
 .book-now {
   position: relative;
   display: inline-block;
